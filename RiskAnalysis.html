@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiskAnalysis.html</title>
+    <link rel="stylesheet" type="text/css" href="RiskAnalysis.css">
+    <link rel="stylesheet" href="commonCSS.css">
+    <link rel="stylesheet" href="headerFooter.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="sub-header">
+        <marquee class="marquee">
+            <a href="">9131433788</a>
+            <a href="">SEBI REG NO:INA000010098</a>
+            <a href="">INFO@jmpgoldenaegis.com</a>
+        </marquee>
+        <button class="btn">Live Rate</button>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: space-around;">
+
+        <div class="img-m1">
+            <img src="img/logo.png" alt="JMP" height="100%" width="100px" />
+        </div>
+        <div class="Navbar">
+            <ul>
+                <li><a href="home.html"> HOME</a></li>
+                <li><a href="jmp.html">ABOUT</a></li>
+                <li><a href="Services.html">SERVICES</a></li>
+                <li><a href="PRICING">PRICING</a></li>
+                <li><a href="PAYMENT">PAYMENT</a></li>
+                <li><a href="RESEARCH">RESEARCH</a></li>
+                <li><a href="CLIENT PORTAL">CLIENT PORTAL</a></li>
+                <div class="dropdown">
+                    <li class="dropdown_menu">
+                        Investor Charter <i class="fas-fa-caret-down"></i>
+                    </li>
+                    <div class="dropdown_content">
+                        <a href="VisionMission.html">Vision & Mission</a>
+                        <a href="DetailsOfBusiness.html">Details of Business Transacted</a>
+                        <a href="DetailsOfGrievance.html">Details of Grievance Redressal Mechanism</a>
+                        <a href="InvestorResponsibilities.html">Investor Responsibilities</a>
+                        <a href="ComplaintData.html">Complaint Data</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="dropdown_menu">MORE</li>
+                    <div class="dropdown_content">
+                        <a href="Career.html">CAREER</a>
+                        <a href="Contact.html">CONTACT</a>
+                        <a href="KycForm.html">KYC</a>
+                        <a href="RiskAnalysis.html">RISK ANALYSIS</a>
+                        <a href="ComplianceOfficer.html">COMPLIANCE</a>
+                        <a href="Agreement.html">Agreement</a>
+                        <a href="#">SMS</a>
+                        <a href="PrivacyPolicy.html">PRIVACY & POLICY</a>
+                        <a href="TermAndCondition.html">TERMS & CONDITIONS</a>
+                        <a href="Disclaimer.html">DISCLAIMER</a>
+                        <a href="RefundPolicy.html">REFUND-POLICY</a>
+                        <a href="PrivacyPolicy.html">PRIVACY-POLICY</a>
+                        <a href="FAQ.html">FAQ'S</a>
+                        <a href="Blog.html">BLOG</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="about">
+        <div class="img-1">
+            <img src="img/Quality.jpg" alt="Kyc" height="350px" width="100%" />
+        </div>
+        <!-- from page herre -->
+        <header class="header">
+            <div class="header-content">
+                <h1>Risk Analysis Form</h1>
+                <p>Index | Risk Analysis | Terms & Conditions</p>
+            </div>
+        </header>
+
+        <div class=" section-contact">
+            <main class="form-container">
+                <h2>Form for Risk Profile</h2>
+                <form class="risk-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="full-name">Full Name:</label>
+                            <input type="text" id="full-name" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number">Contact Number:</label>
+                            <input type="tel" id="contact-number" placeholder="Enter your contact number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email ID:</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pan">PAN No:</label>
+                            <input type="text" id="pan" placeholder="Enter your PAN" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="father-spouse">Father/Spouse Name:</label>
+                            <input type="text" id="father-spouse" placeholder="Enter name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City:</label>
+                            <input type="text" id="city" placeholder="Enter city" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" id="dob" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State:</label>
+                            <input type="text" id="state" placeholder="Enter state" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="alternate-number">Alternate Number:</label>
+                            <input type="tel" id="alternate-number" placeholder="Enter alternate number">
+                        </div>
+                        <div class="form-group">
+                            <label for="occupation">Occupation:</label>
+                            <input type="text" id="occupation" placeholder="Enter occupation">
+                        </div>
+                    </div>
+
+                    <!-- Questions Section -->
+
+                    <b>1. Which age group do you belong to?</b>
+                    <div class="form-group">
+                        <label class="radio-inline"><input type="radio" value="18-25" name="age"
+                                onclick="countRisknew('q_13')" id="q1" data-val="7.14">18-25</label>
+
+                        <label class="radio-inline"><input type="radio" value="26-40" name="age"
+                                onclick="countRisknew('q_13')" id="q1" data-val="5.36">26-40</label>
+                    </div>
+
+                    <label class="radio-inline"><input type="radio" value="41-55" name="age"
+                            onclick="countRisknew('q_13')" id="q1" data-val="3.57">41-55</label>
+
+                    <br>
+                    <label class="radio-inline"><input type="radio" value=">55" name="age"
+                            onclick="countRisknew('q_13')" id="q1" data-val="1.79">&gt;55</label>
+
+
+                    <p class="bold">
+                        <b>2.Which of the options best describes your current stage of life?</b>
+                    </p>
+                    <label class="radio-inline"><input type="radio"
+                            value="Single with few financial burdens. Ready to accumulate wealth for future short termand long termgoals."
+                            name="goalExpectations" onclick="countRisknew('q_13')" id="q2" data-val="7.14"> Single with
+                        few financial burdens. Ready to accumulate wealth for future short termand long
+                        termgoals.</label>
+                    <br>
+                    <label class="radio-inline"><input type="radio" value="A couple without   children. Preparing for the future by establishing a home. 
+                            Expecting to haveoralreadyhaveahighpurchaserateof householdandconsumeritems."
+                            onclick="countRisknew('q_13')" id="q2" data-val="4.76" name="goalExpectations">A couple
+                        without children. Preparing for the future by establishing a
+                        Expecting to haveoralreadyhaveahighpurchaserateof
+                        householdandconsumeritems.</label>
+                    <br>
+                    <label class="radio-inline"><input type="radio"
+                            value="Young family with a home.You have amortgage and childcare costs and maintain only small cash balances."
+                            onclick="countRisknew('q_13')" id="q2" data-val="2.38" name="goalExpectations">Young family
+                        with a home.You have amortgage and childcare costs and maintain only small cash
+                        balances.</label>
+                    <br>
+                    <label class="radio-inline"><input type="radio"
+                            value="Mature family. You are in your peak earning years and your mortgage is under control.You both work and you may or may not have children that are growing upor have left home. You’re ready to start thinking about your retirement years."
+                            onclick="countRisknew('q_13')" id="q2" data-val="7.14" name="goalExpectations">Mature
+                        family. You are in your peakearning years and your mortgage is under control.You both work and
+                        you may or may not have children that are grow in gupor have left home. You’re ready to start
+                        thinking about your retirementyears.</label>
+
+                    <br>
+                    <label class="radio-inline"><input type="radio"
+                            value="Preparing for retirement.You own your home and have few financial burdens.you want to ensure you can afford a comfortable retirement."
+                            onclick="countRisknew('q_13')" id="q2" data-val="4.76" name="goalExpectations">Preparing for
+                        retirement.You own your home and have few financial burdens.you want to ensure you can afford a
+                        comfortable retirement.</label>
+                    <br>
+                    <label class="radio-inline"><input type="radio"
+                            value="Retired. You rely on existing funds and investments to maintain your lifestyle in retirement. You may already be receiving a Government pension and/or Superannuation pension."
+                            onclick="countRisknew('q_13')" id="q2" data-val="2.38" name="goalExpectations">Retired. You
+                        rely on existing funds and investments to maintain your lifestyle in retirement. You may already
+                        be receiving a Government pension and/or Superannuation pension.</label>
+
+                    <p class="bold">
+                        <b>3.What is your Investment horizon ?How long can you keep your money invested in the market
+                            before need ingaccessto it?</b>
+                    </p>
+                    <label class="radio-inline">
+                        <input type="radio" value="< 2 years" name="bankTypeDeposits" onclick="countRisknew('q_13')"
+                            id="q3" data-val="1.79">&lt; 2 years</label>
+                    <br>
+                    <label class="radio-inline"><input type="radio" value="2-5 years" name="bankTypeDeposits"
+                            onclick="countRisknew('q_13')" id="q3" data-val="3.57">2-5 years</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="5-10 years" name="bankTypeDeposits" onclick="countRisknew('q_13')"
+                            id="q3" data-val="3.57">5-10 years</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value=">10 years" name="bankTypeDeposits" onclick="countRisknew('q_13')"
+                            id="q3" data-val="3.57">>10 years</label>
+                    </label>
+
+                    <h3>4. What is your investment amount?</h3>
+                    <div class="form-group">
+                        <label><input type="radio" name="investment" value="0.01-0.60 Lacs" required> 0.01 - 0.60
+                            Lacs</label>
+                        <label><input type="radio" name="investment" value="0.60-3 Lacs"> 0.60 - 3 Lacs</label>
+                        <label><input type="radio" name="investment" value="3-5 Lacs"> 3 - 5 Lacs</label>
+                        <label><input type="radio" name="investment" value=">5 Lacs"> >5 Lacs</label>
+                    </div>
+
+                    <p class="bold">
+                        <b>5.How long have you been investing?.</b>
+                    </p>
+                    <label class="radio-inline">
+                        <input type="radio" value="> 3 years" onclick="countRisknew('q_13')" id="q5" data-val="7.14"
+                            name="portfolioHeld"> &gt; 3 years </label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="1-3 years" onclick="countRisknew('q_13')" id="q5" data-val="4.76"
+                            name="portfolioHeld">1-3 years</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="< 1 year" onclick="countRisknew('q_13')" id="q5" data-val="2.38"
+                            name="portfolioHeld">&lt; 1 year</label>
+
+                    <p class="bold">
+                        <b>6.How well do you understand investing in the markets?</b>
+                    </p>
+                    <label class="radio-inline">
+                        <input type="radio" onclick="countRisknew('q_13')" id="q6" data-val="1.79"
+                            value="I am a novice. I don’t understand the markets at all." name="SourcesIncome"> I am a
+                        novice. I don’t understand the markets at all.</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" onclick="countRisknew('q_13')" id="q6" data-val="3.57"
+                            value="I have basic understanding of investing.I underst and ther isks and basic investment concepts like diversification"
+                            name="SourcesIncome"> I have basic understanding of investing.I underst and ther isks and
+                        basic investment concepts like diversification</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" onclick="countRisknew('q_13')" id="q6" data-val="5.36"
+                            value="I have an amateur interest in investing.I have invested earlier on my own. I under stand how markets fluctuate and the pros and cons of different investment classes."
+                            name="SourcesIncome">I have an amateur interest in investing.I have invested earlier on my
+                        own. I under stand how markets fluctuate and the pros and cons of different investment
+                        classes.</label>
+                    <br>
+
+                    <label class="radio-inline">
+                        <input type="radio" onclick="countRisknew('q_13')" id="q6" data-val="7.14"
+                            value="I am an experienced investor. I have invested in different markets and under stand different investment strategies. I have my own investment philosophy."
+                            name="SourcesIncome">I am an experienced investor. I have invested in different markets and
+                        under stand different investment strategies. I have my own investment philosophy.</label>
+
+                    <p class="bold">
+                        <b>7.Which of the following best describes your investment objective?.</b>
+                    </p>
+
+                    <label class="radio-inline">
+                        <input type="radio" value="Capital Preservation" onclick="countRisknew('q_13')" id="q7"
+                            data-val="1.43" name="terms">Capital Preservation</label>
+                    <br>
+
+                    <label class="radio-inline">
+                        <input type="radio" value="Regular Stream of stable income" onclick="countRisknew('q_13')"
+                            id="q7" data-val="2.86" name="terms">Regular Stream of stable income</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="Combination of income and capital growth"
+                            onclick="countRisknew('q_13')" id="q7" data-val="4.29" name="terms">Combination of income
+                        and capital growth</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="Substantial long term capital growth" onclick="countRisknew('q_13')"
+                            id="q7" data-val="5.71" name="terms">Substantial long term capital growth</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="High Capital appreciation" onclick="countRisknew('q_13')" id="q7"
+                            data-val="7.14" name="terms">High Capital appreciation</label>
+
+
+                    <p class="bold">
+                        <b>8.What is your annual income?</b>
+                    </p>
+                    <label class="radio-inline">
+                        <input type="radio" value="<3 lacs" onclick="countRisknew('q_13')" id="q8" data-val="1.79"
+                            name="investmentsInPast">&lt;3 lacs</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="3-5 lacs" onclick="countRisknew('q_13')" id="q8" data-val="3.57"
+                            name="investmentsInPast">3-5 lacs</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="5-7 lacs" onclick="countRisknew('q_13')" id="q8" data-val="5.36"
+                            name="investmentsInPast">5-7 lacs</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value=">7 lacs" onclick="countRisknew('q_13')" id="q8" data-val="7.14"
+                            name="investmentsInPast">&gt;7 lacs</label>
+
+                    <p class="bold">
+                        <b>9.How secure is your income from sources such as salary,pension?</b>
+                    </p>
+
+                    <label class="radio-inline"><input type="radio" value="Not Dependable"
+                            onclick="countRisknew('q_13')" data-val="2.38" id="q9" name="actualBehavior">Not
+                        Dependable</label>
+                    <br>
+                    <label class="radio-inline"><input type="radio" onclick="countRisknew('q_13')" data-val="4.76"
+                            id="q9" value="Secure" name="actualBehavior">Secure</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio"
+                            value="Doesnt matter because you expect a large inheritance/have enough wealth already.."
+                            onclick="countRisknew('q_13')" data-val="7.14" id="q9" name="actualBehavior">Doesn't matter
+                        because you expect a large inheritance/have enough wealth already.</label>
+                    <br>
+
+                    <p class="bold"><b>10.What is the total value of the assets that you own?</b> </p>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" onclick="countRisknew('q_13')" data-val="1.79" id="q10" value="<3 lacs"
+                            name="otherInvestments">&lt;3 lacs</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="3-10 lacs" onclick="countRisknew('q_13')" data-val="3.57" id="q10"
+                            name="otherInvestments">3-10 lacs</label>
+                    <br>
+                    <label class="radio-inline">
+                        <input type="radio" value="10-30 lacs" onclick="countRisknew('q_13')" data-val="5.36" id="q10"
+                            name="otherInvestments">10-30 lacs</label>
+                    <br>
+
+
+                    <!-- Submit Section -->
+                    <div class="form-group">
+                        <label for="score">Your Score:</label>
+                        <input type="text" id="score" readonly value="10">
+                    </div>
+                    <div class="form-group">
+                        <label for="risk-appetite">Risk Appetite:</label>
+                        <input type="text" id="risk-appetite" readonly value="High">
+                    </div>
+
+                    <div>
+                        <h4>Suitability Product according to Your Risk Appetite</h4>
+                        <b>No Product according to Your Risk Appetite</b>
+                    </div>
+
+                    <!-- Add other questions in similar format -->
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="section cta section-no-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="cta-1">
+                        <div class="body-text color_white ">
+                            <h3>Don't hesitate to contact us any time.</h3>
+                        </div>
+                        <div class="body-action">
+                            <a href="contact.php" class="btn btn-secondary">GET A QUOTE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" loop="true" scrolldelay="1"
+            scrollamount="3">
+            कृपया ध्यान दें ! jmp golden aegis ऐसी कोई सर्विस उपलब्ध नहीं कराती हैं जो हमारी वेबसाइट
+            http://www.jmpgoldenaegis.com/ पर उपलब्ध नहीं हैं जैसे -, गारंटी प्रॉफिट सर्विस, प्रॉफिट और लॉस शेयरिंग
+            सर्विस ,पोर्टफोलियो मैनेजमेंट सर्विस अथवा डीमैट ट्रेडिंग सर्विस, यदि कोई व्यक्ति ऐसी कोई सर्विस आपको उपलब्ध
+            करने का वादा करता हैं हैं तो आप हमें इस नंबर पर कॉल करे (+91) -9131433788 अथवा आप हमें service
+            jmpgoldenaegis.com/ ईमेल आईडी पर मेल करके इस बारे में जानकारी दे सकते है
+        </marquee>
+
+        <div class="f-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <div class="box-info">
+                            <div class="box-info-icon">
+                                <span class="fa fa-phone"></span>
+                            </div>
+                            <div class="box-info-body">
+                                <p>Have a question? call us now</p>
+                                <h4>9131433788</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="box-info">
+                            <div class="box-info-icon">
+                                <span class="fa fa-clock-o"></span>
+                            </div>
+                            <div class="box-info-body">
+                                <p>We are open on</p>
+                                <h4>Mon - Sat 08:00 - 20:00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <div class="box-info">
+                            <div class="box-info-icon">
+                                <span class="fa fa-envelope"></span>
+                            </div>
+                            <div class="box-info-body">
+                                <p>Need support? Drop us an email</p>
+                                <h4><a href="#" title="" style="font-size: 12px">info@jmpgoldenaegis.com</a></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-3 col-md-3">
+                    <div class="footer-item">
+
+                        <img src="admin_jmp/upload/JMP Logo_JPEG.jpg" alt="JMP Golden Aegis" class="logo-bottom"
+                            width="200px" height="200px">
+
+                        <ul class="list-inline">
+                            <li class="col-md-12 col-xs-12"> <i class="fa fa-envelope"></i>
+                                compliance@jmpgoldenaegis.com </li>
+                            <li class="col-md-12 col-xs-12"> <i class="fa fa-mobile"></i>+91 9131433788</li>
+                            <li class="col-md-12 col-xs-12"> <i class="fa fa-clock-o"></i>Monday to Friday : 9:00 AM to
+                                6:30 PM Saturday : 10:00 AM to 2:00 </li>
+                            <li class=" col-md-12 col-xs-12"> <i class="fa fa-map-marker"></i> <b>Previous Address
+                                    :-</b> Office No. 202,
+                                Swastik Urban, Plot No. 6,7,8, PU-4, Indore (M.P)
+                            </li>
+                            <li class="col-md-12 col-xs-12"> <i class="fa fa-map-marker"></i> <b>Current Address :-</b>
+                                Office NO.408,Plot No.27 Om Gurudev Plaza Scheme No.54, Mechanic Nagar Extension Indore
+                                (M.P)
+                            </li>
+
+                        </ul>
+
+                        <div>
+                            <a href="https://www.facebook.com/" title="">
+                                <div class="item">
+
+                                </div>
+                            </a>
+                            <a href="https://twitter.com/login" title="">
+                                <div class="item">
+
+                                </div>
+                            </a>
+                            <a href="https://www.google.co.in" title="">
+                                <div class="item">
+
+                                </div>
+                            </a>
+                            <a href="https://in.linkedin.com/" title="">
+                                <div class="item">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="footer-item">
+                        <div class="footer-title">
+                            Quick Links
+                        </div>
+                        <ul class="recent-post">
+                            <ul class="hak-foo">
+                                <li><a href="index.php" class="readmore">HOME <i class="fa fa-angle-right"></i></a></li>
+                                <li><a href="about.php" class="readmore">ABOUT <i class="fa fa-angle-right"></i></a>
+                                </li>
+                                <li><a href="contact.php" class="readmore">CONTACT US <i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li><a href="blog.php" class="readmore">BLOG <i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3">
+                    <div class="footer-item">
+                        <div class="footer-title">
+                            Quick Links
+                        </div>
+                        <ul class="recent-post">
+                            <ul class="hak-foo">
+                                <li><a href="services.php" class="readmore">SERVICES<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li><a href="pricing-table.php" class="readmore">PRICING <i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li><a href="payment.php" class="readmore">PAYMENT <i class="fa fa-angle-right"></i></a>
+                                </li>
+                                <li><a href="research.php" class="readmore">RESEARCH <i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li><a href="kyc.php" class="readmore">KYC <i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3">
+                    <div class="footer-item">
+                        <div class="footer-title">
+                            About
+                        </div>
+                        <p>Our advisory firm provides Commodity Trading, Swing Trading, Future Trading and Option
+                            Trading in Commodity &amp; Bullion Market etc. Its working include research of trading
+                            market and providing platform for trading to all the trade </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fcopy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <ul class="list-inline">
+                            <li class="col-md-6 col-xs-12">
+                                <p class="">© 2021 JMP Golden Aegis . All Rights Reserved. </p>
+                            </li>
+                            <li class="col-md-6 col-xs-12" style="text-align: right;"><span>SEBI No : </span>
+                                INA000010098</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</div>
